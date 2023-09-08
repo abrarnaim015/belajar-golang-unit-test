@@ -4,14 +4,14 @@ package helpers
 How to RUN tets at Terminal
 
 if all file
-> go run -v ./...
+> go test -v ./...
 
 if by Name Func
-> go run -v -run={name of func}
+> go test -v -run={name of func}
 
 if by Name Func and sub test
-> go run -v -run={name of func}/{name of sub func}
-> go run -v -run=/{name of sub func} // run all test func include name of sub func
+> go test -v -run={name of func}/{name of sub func}
+> go test -v -run=/{name of sub func} // run all test func include name of sub func
 
 
 How to Run Benchmark
